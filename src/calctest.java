@@ -18,7 +18,7 @@ public class calctest {
 		assertEquals(Double.NaN,Double.NaN,resl);
 		c.subtract(4, 0);
 		double sub=c.getresult();
-		assertEquals(4,4,resl);
+		assertEquals(4,4,sub);
 	}
 
 }
